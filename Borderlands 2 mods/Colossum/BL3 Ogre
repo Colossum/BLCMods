@@ -3,6 +3,7 @@ Greatly reduces the accuracy and bullet speed of the Ogre in favor of around 25%
  Using a slippery version helps with the speed penalty and makes it more versatile overall.
  The ogre becomes a beast at close range (on axton or krieg) but hitting mid range crits or moving targets is much harder. 
  
+       #</Attributes>
  
    set GD_Aster_Weapons.FiringModes.Bullet_Assault_Ogre Speed 220.000000
  
