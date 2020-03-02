@@ -1,0 +1,29 @@
+
+Changes the Blood of the Seraphs to an explosive Bone of the Ancients style artifact "The Last Element". Because, just like Handsome Jack during the Bloodwing fight, Gearbox seems to have forgotten the last element, EXPLOSIIIIIIVE!
+
+
+#Title
+
+set GD_Orchid_Artifacts.A_Item_Unique.Artifact_SeraphBloodRelic ItemName The Last Element 
+
+
+set GD_Orchid_Artifacts.Body.Body_SeraphBloodRelic:AttributePresentationDefinition_2 Description Oh, now I remember. EXPLOSIIIIIIVE!
+
+
+set GD_Orchid_Artifacts.Body.Body_SeraphBloodRelic:AttributePresentationDefinition_3 Description and [skill]action skill cooldown rate[-skill]  
+
+set GD_Orchid_Artifacts.Body.Body_SeraphBloodRelic:AttributePresentationDefinition_0 Description Improves [skill]elemental damance[-skill 
+
+
+
+
+
+#Attributes
+
+set GD_Orchid_Artifacts.A_Item_Unique.Artifact_SeraphBloodRelic UIStatList ((bDisplayAsModifierOnly=True,AttributeStyle=ATTRSTYLE_ModifierText,SupplementalAttributeStyle=ATTRSTYLE_JustNumber,StatCombinationMethod=SCM_Multiply,Attribute=AttributeDefinition'D_Attributes.DamageTypeModifers.InstigatedExplosiveDamageModifier',ConstraintAttribute=None,SupplementalAttributeExpression=(AttributeOperand1=None,ComparisonOperator=OPERATOR_EqualTo,Operand2Usage=OPERAND_PreferAttribute,AttributeOperand2=None,ConstantOperand2=0.000000),SupplementalAttributeToAppend=None),(bDisplayAsModifierOnly=True,AttributeStyle=ATTRSTYLE_ModifierText,SupplementalAttributeStyle=ATTRSTYLE_JustNumber,StatCombinationMethod=SCM_Multiply,Attribute=AttributeDefinition'D_Attributes.ActiveSkillCooldownResource.ActiveSkillCooldownConsumptionRate',ConstraintAttribute=None,SupplementalAttributeExpression=(AttributeOperand1=None,ComparisonOperator=OPERATOR_EqualTo,Operand2Usage=OPERAND_PreferAttribute,AttributeOperand2=None,ConstantOperand2=0.000000),SupplementalAttributeToAppend=None))
+
+
+
+set GD_Orchid_Artifacts.A_Item_Unique.Artifact_SeraphBloodRelic AttributeSlotEffects ((SlotName="Effect1",bExternalSlot=True,bRunEffectsAsSkill=True,AttributeToModify=AttributeDefinition'D_Attributes.DamageTypeModifers.InstigatedExplosiveDamageModifier',ConstraintAttribute=None,ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_Artifacts.BalanceAttributes.Init_ModifierBase_Linear',BaseValueScaleConstant=0.004300),PerGradeUpgrade=(BaseValueConstant=0.001000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),bIncludeInFunStats=False,bIncludeAlliesAsTarget=False,bEnforceMinimumGrade=False,bEnforceMaximumGrade=False,MinimumGrade=0,MaximumGrade=12,TargetInstanceDataName=),(SlotName="Effect2",bExternalSlot=True,bRunEffectsAsSkill=True,AttributeToModify=AttributeDefinition'D_Attributes.ActiveSkillCooldownResource.ActiveSkillCooldownConsumptionRate',ConstraintAttribute=None,ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_Artifacts.BalanceAttributes.Init_ModifierBase_Linear',BaseValueScaleConstant=0.00461),PerGradeUpgrade=(BaseValueConstant=0.002500,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),bIncludeInFunStats=False,bIncludeAlliesAsTarget=False,bEnforceMinimumGrade=False,bEnforceMaximumGrade=False,MinimumGrade=0,MaximumGrade=12,TargetInstanceDataName=)))
+
+set GD_Orchid_Artifacts.A_Item_Unique.Artifact_SeraphBloodRelic AttributeSlotUpgrades ((SlotName="Effect1",GradeIncrease=0,bActivateSlot=True),(SlotName="Effect2",GradeIncrease=0,bActivateSlot=True))
